@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T18:53:57.809Z",
+  "generatedAt": "2026-08-27T19:11:01.852Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
     "targetPatients": 11763,
-    "verifiedPatients": 5046,
-    "remainingPatients": 6717,
-    "percent": 42.897220096914054,
-    "rollingRatePerHour": 191.33333333333334,
-    "etaHours": 35.106271777003485,
-    "etaAt": "2026-08-29T06:00:20.387Z",
-    "latestVerifiedAt": "2026-08-27T18:53:57.770Z"
+    "verifiedPatients": 5120,
+    "remainingPatients": 6643,
+    "percent": 43.526311315140696,
+    "rollingRatePerHour": 202,
+    "etaHours": 32.886138613861384,
+    "etaAt": "2026-08-29T04:04:11.951Z",
+    "latestVerifiedAt": "2026-08-27T19:10:32.242Z"
   },
   "archive": {
-    "totalFiles": 85273,
-    "totalFileBytes": 32243691912,
-    "structuredRecords": 154006,
-    "freeBytes": 580533664768,
-    "latestFileAt": "2026-08-27T18:53:57.838Z",
-    "recentFiles": 626
+    "totalFiles": 86360,
+    "totalFileBytes": 32598075581,
+    "structuredRecords": 155884,
+    "freeBytes": 578816228352,
+    "latestFileAt": "2026-08-27T19:11:01.274Z",
+    "recentFiles": 638
   },
   "queue": {
-    "waiting": 6711,
-    "inProgress": 5,
-    "complete": 5046,
+    "waiting": 6636,
+    "inProgress": 6,
+    "complete": 5120,
     "heldForReview": 1
   },
   "workers": {
@@ -34,44 +34,44 @@
       {
         "label": "Worker 01",
         "status": "Active",
-        "stage": "Patient details",
-        "processed": 1377,
-        "lastSeenAt": "2026-08-27T18:53:57.990Z"
+        "stage": "Appointments",
+        "processed": 1387,
+        "lastSeenAt": "2026-08-27T19:10:57.790Z"
       },
       {
         "label": "Worker 02",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 1503,
-        "lastSeenAt": "2026-08-27T18:53:49.811Z"
+        "stage": "Tasks",
+        "processed": 1515,
+        "lastSeenAt": "2026-08-27T19:11:00.969Z"
       },
       {
         "label": "Worker 03",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 1544,
-        "lastSeenAt": "2026-08-27T18:53:17.827Z"
+        "processed": 1557,
+        "lastSeenAt": "2026-08-27T19:10:45.768Z"
       },
       {
         "label": "Worker 04",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 260,
-        "lastSeenAt": "2026-08-27T18:53:55.345Z"
+        "stage": "Charts",
+        "processed": 274,
+        "lastSeenAt": "2026-08-27T19:11:00.719Z"
       },
       {
         "label": "Worker 05",
         "status": "Active",
-        "stage": "Tasks",
-        "processed": 181,
-        "lastSeenAt": "2026-08-27T18:53:51.923Z"
+        "stage": "Appointments",
+        "processed": 194,
+        "lastSeenAt": "2026-08-27T19:10:55.954Z"
       },
       {
         "label": "Worker 06",
         "status": "Active",
-        "stage": "Patient details",
-        "processed": 176,
-        "lastSeenAt": "2026-08-27T18:53:53.963Z"
+        "stage": "Charts",
+        "processed": 188,
+        "lastSeenAt": "2026-08-27T19:10:59.708Z"
       }
     ]
   },
@@ -80,17 +80,13 @@
     "status": "Passing"
   },
   "analogy": {
-    "sheetWeightKg": 426.365,
-    "grandPianos": 1.4212166666666668,
-    "factIndex": 1,
-    "fact": "Stacked one per sheet, the captured files would form a paper tower about 8.5 metres high.",
+    "sheetWeightKg": 431.8,
+    "grandPianos": 1.4393333333333334,
+    "factIndex": 3,
+    "fact": "At 500 sheets per ream, the captured files would fill about 173 reams of paper.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
-    {
-      "at": "2026-08-27T13:00:00.000Z",
-      "count": 37
-    },
     {
       "at": "2026-08-27T14:00:00.000Z",
       "count": 136
@@ -109,7 +105,11 @@
     },
     {
       "at": "2026-08-27T18:00:00.000Z",
-      "count": 226
+      "count": 253
+    },
+    {
+      "at": "2026-08-27T19:00:00.000Z",
+      "count": 47
     }
   ]
 }

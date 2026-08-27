@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T17:47:01.639Z",
+  "generatedAt": "2026-08-27T18:04:01.850Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
     "targetPatients": 11763,
-    "verifiedPatients": 4765,
-    "remainingPatients": 6998,
-    "percent": 40.50837371418856,
-    "rollingRatePerHour": 150.5,
-    "etaHours": 46.498338870431894,
-    "etaAt": "2026-08-29T16:16:55.658Z",
-    "latestVerifiedAt": "2026-08-27T17:46:40.877Z"
+    "verifiedPatients": 4835,
+    "remainingPatients": 6928,
+    "percent": 41.10346000170025,
+    "rollingRatePerHour": 160.5,
+    "etaHours": 43.165109034267914,
+    "etaAt": "2026-08-29T13:13:56.242Z",
+    "latestVerifiedAt": "2026-08-27T18:04:00.861Z"
   },
   "archive": {
-    "totalFiles": 80858,
-    "totalFileBytes": 30835663795,
-    "structuredRecords": 146353,
-    "freeBytes": 586735074304,
-    "latestFileAt": "2026-08-27T17:47:01.461Z",
-    "recentFiles": 559
+    "totalFiles": 82065,
+    "totalFileBytes": 31148100760,
+    "structuredRecords": 148509,
+    "freeBytes": 585247144960,
+    "latestFileAt": "2026-08-27T18:04:01.568Z",
+    "recentFiles": 730
   },
   "queue": {
-    "waiting": 6991,
+    "waiting": 6921,
     "inProgress": 6,
-    "complete": 4765,
+    "complete": 4835,
     "heldForReview": 1
   },
   "workers": {
@@ -35,43 +35,43 @@
         "label": "Worker 01",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 1328,
-        "lastSeenAt": "2026-08-27T17:46:02.005Z"
+        "processed": 1340,
+        "lastSeenAt": "2026-08-27T18:03:03.729Z"
       },
       {
         "label": "Worker 02",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 1455,
-        "lastSeenAt": "2026-08-27T17:46:32.585Z"
+        "stage": "Patient details",
+        "processed": 1467,
+        "lastSeenAt": "2026-08-27T18:03:54.069Z"
       },
       {
         "label": "Worker 03",
         "status": "Active",
-        "stage": "Recalls",
-        "processed": 1500,
-        "lastSeenAt": "2026-08-27T17:46:54.855Z"
+        "stage": "Charts",
+        "processed": 1510,
+        "lastSeenAt": "2026-08-27T18:04:00.916Z"
       },
       {
         "label": "Worker 04",
         "status": "Active",
-        "stage": "Charts",
-        "processed": 209,
-        "lastSeenAt": "2026-08-27T17:46:52.806Z"
+        "stage": "Clinical history",
+        "processed": 220,
+        "lastSeenAt": "2026-08-27T18:02:52.881Z"
       },
       {
         "label": "Worker 05",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 137,
-        "lastSeenAt": "2026-08-27T17:46:58.242Z"
+        "stage": "Patient details",
+        "processed": 149,
+        "lastSeenAt": "2026-08-27T18:04:01.076Z"
       },
       {
         "label": "Worker 06",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 131,
-        "lastSeenAt": "2026-08-27T17:46:33.456Z"
+        "processed": 144,
+        "lastSeenAt": "2026-08-27T18:03:26.859Z"
       }
     ]
   },
@@ -80,17 +80,13 @@
     "status": "Passing"
   },
   "analogy": {
-    "sheetWeightKg": 404.29,
-    "grandPianos": 1.3476333333333335,
-    "factIndex": 2,
-    "fact": "Laid end to end on A4 paper, the captured files would stretch about 24.0 kilometres.",
+    "sheetWeightKg": 410.325,
+    "grandPianos": 1.36775,
+    "factIndex": 0,
+    "fact": "Printed one per sheet, the captured files would weigh about 410.3 kg — roughly 1.4 grand pianos.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
-    {
-      "at": "2026-08-27T12:00:00.000Z",
-      "count": 31
-    },
     {
       "at": "2026-08-27T13:00:00.000Z",
       "count": 37
@@ -109,7 +105,11 @@
     },
     {
       "at": "2026-08-27T17:00:00.000Z",
-      "count": 197
+      "count": 252
+    },
+    {
+      "at": "2026-08-27T18:00:00.000Z",
+      "count": 15
     }
   ]
 }

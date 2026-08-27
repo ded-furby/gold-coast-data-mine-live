@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-27T14:44:32.125Z",
+  "title": "Gold Coast Data Mine",
+  "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
+  "progress": {
+    "targetPatients": 11763,
+    "verifiedPatients": 4012,
+    "remainingPatients": 7751,
+    "percent": 34.10694550709853,
+    "rollingRatePerHour": 40.666666666666664,
+    "etaHours": 190.5983606557377,
+    "etaAt": "2026-09-04T13:20:26.223Z",
+    "latestVerifiedAt": "2026-08-27T14:43:35.231Z"
+  },
+  "archive": {
+    "totalFiles": 69944,
+    "totalFileBytes": 26983651694,
+    "structuredRecords": 126958,
+    "freeBytes": 853545451520,
+    "latestFileAt": "2026-08-27T14:44:31.815Z",
+    "recentFiles": 596
+  },
+  "queue": {
+    "waiting": 7744,
+    "inProgress": 6,
+    "complete": 4012,
+    "heldForReview": 1
+  },
+  "workers": {
+    "configured": 6,
+    "active": 6,
+    "lanes": [
+      {
+        "label": "Worker 01",
+        "status": "Active",
+        "stage": "Charts",
+        "processed": 1207,
+        "lastSeenAt": "2026-08-27T14:44:27.423Z"
+      },
+      {
+        "label": "Worker 02",
+        "status": "Active",
+        "stage": "Clinical history",
+        "processed": 1329,
+        "lastSeenAt": "2026-08-27T14:44:30.240Z"
+      },
+      {
+        "label": "Worker 03",
+        "status": "Active",
+        "stage": "Clinical history",
+        "processed": 1365,
+        "lastSeenAt": "2026-08-27T14:44:26.717Z"
+      },
+      {
+        "label": "Worker 04",
+        "status": "Active",
+        "stage": "Clinical history",
+        "processed": 81,
+        "lastSeenAt": "2026-08-27T14:43:35.229Z"
+      },
+      {
+        "label": "Worker 05",
+        "status": "Active",
+        "stage": "Appointments",
+        "processed": 14,
+        "lastSeenAt": "2026-08-27T14:44:31.072Z"
+      },
+      {
+        "label": "Worker 06",
+        "status": "Active",
+        "stage": "Clinical history",
+        "processed": 11,
+        "lastSeenAt": "2026-08-27T14:44:30.290Z"
+      }
+    ]
+  },
+  "integrity": {
+    "recentAlerts": 0,
+    "status": "Passing"
+  },
+  "analogy": {
+    "sheetWeightKg": 349.72,
+    "grandPianos": 1.1657333333333335,
+    "note": "Illustrative only: one captured file represented by one 80 gsm A4 sheet."
+  },
+  "hourly": [
+    {
+      "hour": "2026-08-27T08",
+      "count": 6
+    },
+    {
+      "hour": "2026-08-27T09",
+      "count": 28
+    },
+    {
+      "hour": "2026-08-27T10",
+      "count": 32
+    },
+    {
+      "hour": "2026-08-27T11",
+      "count": 36
+    },
+    {
+      "hour": "2026-08-27T12",
+      "count": 31
+    },
+    {
+      "hour": "2026-08-27T13",
+      "count": 37
+    },
+    {
+      "hour": "2026-08-27T14",
+      "count": 74
+    }
+  ]
+}

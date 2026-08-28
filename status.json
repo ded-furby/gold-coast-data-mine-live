@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T22:18:10.340Z",
+  "generatedAt": "2026-08-28T22:18:58.945Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
@@ -8,35 +8,35 @@
     "verifiedPatients": 11761,
     "remainingPatients": 2,
     "percent": 99.98299753464252,
-    "rollingRatePerHour": 249.83333333333334,
-    "etaHours": 0.00800533689126084,
-    "etaAt": "2026-08-28T22:18:39.159Z",
+    "rollingRatePerHour": 249.16666666666666,
+    "etaHours": 0.00802675585284281,
+    "etaAt": "2026-08-28T22:19:27.841Z",
     "latestVerifiedAt": "2026-08-28T20:58:52.755Z"
   },
   "archive": {
     "totalFiles": 192782,
     "totalFileBytes": 58298766836,
     "structuredRecords": 319133,
-    "freeBytes": 450417572864,
+    "freeBytes": 450408397824,
     "latestFileAt": "2026-08-28T20:58:23.930Z",
     "recentFiles": 0
   },
   "queue": {
     "waiting": 0,
-    "inProgress": 2,
+    "inProgress": 1,
     "complete": 11761,
-    "heldForReview": 0
+    "heldForReview": 1
   },
   "workers": {
     "configured": 8,
-    "active": 2,
+    "active": 1,
     "lanes": [
       {
         "label": "Worker 01",
-        "status": "Active",
-        "stage": "Patient details",
+        "status": "Between patients",
+        "stage": "Ready for next claim",
         "processed": 2372,
-        "lastSeenAt": "2026-08-28T22:18:02.771Z"
+        "lastSeenAt": "2026-08-28T22:18:57.852Z"
       },
       {
         "label": "Worker 02",
@@ -83,14 +83,14 @@
       {
         "label": "Worker 08",
         "status": "Active",
-        "stage": "Patient details",
+        "stage": "Clinical history",
         "processed": 454,
-        "lastSeenAt": "2026-08-28T22:18:03.647Z"
+        "lastSeenAt": "2026-08-28T22:18:53.739Z"
       }
     ]
   },
   "integrity": {
-    "recentAlerts": 32,
+    "recentAlerts": 46,
     "status": "Reviewing"
   },
   "analogy": {

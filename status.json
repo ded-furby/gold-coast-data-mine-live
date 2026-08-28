@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T22:17:21.813Z",
+  "generatedAt": "2026-08-28T22:18:10.340Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
@@ -8,84 +8,84 @@
     "verifiedPatients": 11761,
     "remainingPatients": 2,
     "percent": 99.98299753464252,
-    "rollingRatePerHour": 250,
-    "etaHours": 0.008,
-    "etaAt": "2026-08-28T22:17:50.613Z",
+    "rollingRatePerHour": 249.83333333333334,
+    "etaHours": 0.00800533689126084,
+    "etaAt": "2026-08-28T22:18:39.159Z",
     "latestVerifiedAt": "2026-08-28T20:58:52.755Z"
   },
   "archive": {
     "totalFiles": 192782,
     "totalFileBytes": 58298766836,
     "structuredRecords": 319133,
-    "freeBytes": 450418490368,
+    "freeBytes": 450417572864,
     "latestFileAt": "2026-08-28T20:58:23.930Z",
     "recentFiles": 0
   },
   "queue": {
     "waiting": 0,
-    "inProgress": 0,
+    "inProgress": 2,
     "complete": 11761,
-    "heldForReview": 2
+    "heldForReview": 0
   },
   "workers": {
     "configured": 8,
-    "active": 0,
+    "active": 2,
     "lanes": [
       {
         "label": "Worker 01",
-        "status": "Between patients",
-        "stage": "Ready for next claim",
+        "status": "Active",
+        "stage": "Patient details",
         "processed": 2372,
-        "lastSeenAt": "2026-08-28T22:14:44.677Z"
+        "lastSeenAt": "2026-08-28T22:18:02.771Z"
       },
       {
         "label": "Worker 02",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 2465,
-        "lastSeenAt": "2026-08-28T22:14:43.675Z"
+        "lastSeenAt": "2026-08-28T22:18:03.653Z"
       },
       {
         "label": "Worker 03",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 2503,
-        "lastSeenAt": "2026-08-28T22:13:46.881Z"
+        "lastSeenAt": "2026-08-28T22:18:03.659Z"
       },
       {
         "label": "Worker 04",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 1206,
-        "lastSeenAt": "2026-08-28T22:13:46.875Z"
+        "lastSeenAt": "2026-08-28T22:18:03.657Z"
       },
       {
         "label": "Worker 05",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 1125,
-        "lastSeenAt": "2026-08-28T22:13:46.878Z"
+        "lastSeenAt": "2026-08-28T22:18:03.656Z"
       },
       {
         "label": "Worker 06",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 1145,
-        "lastSeenAt": "2026-08-28T22:13:46.880Z"
+        "lastSeenAt": "2026-08-28T22:18:03.654Z"
       },
       {
         "label": "Worker 07",
         "status": "Between patients",
         "stage": "Ready for next claim",
         "processed": 484,
-        "lastSeenAt": "2026-08-28T22:13:46.877Z"
+        "lastSeenAt": "2026-08-28T22:18:03.650Z"
       },
       {
         "label": "Worker 08",
-        "status": "Between patients",
-        "stage": "Ready for next claim",
+        "status": "Active",
+        "stage": "Patient details",
         "processed": 454,
-        "lastSeenAt": "2026-08-28T22:13:46.872Z"
+        "lastSeenAt": "2026-08-28T22:18:03.647Z"
       }
     ]
   },

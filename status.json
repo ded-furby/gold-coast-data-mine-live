@@ -1,67 +1,67 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T04:53:33.837Z",
+  "generatedAt": "2026-08-28T05:12:18.326Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
     "targetPatients": 11763,
-    "verifiedPatients": 7340,
-    "remainingPatients": 4423,
-    "percent": 62.399047861939984,
-    "rollingRatePerHour": 212.5,
-    "etaHours": 20.814117647058822,
-    "etaAt": "2026-08-29T01:42:24.660Z",
-    "latestVerifiedAt": "2026-08-28T04:52:56.590Z"
+    "verifiedPatients": 7397,
+    "remainingPatients": 4366,
+    "percent": 62.88361812462807,
+    "rollingRatePerHour": 209.33333333333334,
+    "etaHours": 20.85668789808917,
+    "etaAt": "2026-08-29T02:03:42.402Z",
+    "latestVerifiedAt": "2026-08-28T05:12:07.608Z"
   },
   "archive": {
-    "totalFiles": 117043,
-    "totalFileBytes": 41366056837,
-    "structuredRecords": 208065,
-    "freeBytes": 533719858176,
-    "latestFileAt": "2026-08-28T04:53:36.219Z",
-    "recentFiles": 540
+    "totalFiles": 118341,
+    "totalFileBytes": 41615051186,
+    "structuredRecords": 209280,
+    "freeBytes": 532477164544,
+    "latestFileAt": "2026-08-28T05:12:18.299Z",
+    "recentFiles": 755
   },
   "queue": {
-    "waiting": 4416,
+    "waiting": 4359,
     "inProgress": 6,
-    "complete": 7340,
+    "complete": 7397,
     "heldForReview": 1
   },
   "workers": {
     "configured": 6,
-    "active": 6,
+    "active": 5,
     "lanes": [
       {
         "label": "Worker 01",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 1751,
-        "lastSeenAt": "2026-08-28T04:53:06.676Z"
+        "processed": 1763,
+        "lastSeenAt": "2026-08-28T05:12:17.726Z"
       },
       {
         "label": "Worker 02",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 1889,
-        "lastSeenAt": "2026-08-28T04:53:11.779Z"
+        "stage": "Recalls",
+        "processed": 1899,
+        "lastSeenAt": "2026-08-28T05:12:14.524Z"
       },
       {
         "label": "Worker 03",
         "status": "Active",
-        "stage": "Appointments",
-        "processed": 1924,
-        "lastSeenAt": "2026-08-28T04:53:35.768Z"
+        "stage": "Clinical history",
+        "processed": 1936,
+        "lastSeenAt": "2026-08-28T05:11:27.621Z"
       },
       {
         "label": "Worker 04",
         "status": "Active",
-        "stage": "Tasks",
-        "processed": 634,
-        "lastSeenAt": "2026-08-28T04:53:35.474Z"
+        "stage": "Patient details",
+        "processed": 644,
+        "lastSeenAt": "2026-08-28T05:12:07.833Z"
       },
       {
         "label": "Worker 05",
-        "status": "Active",
+        "status": "Checking",
         "stage": "Clinical history",
         "processed": 571,
         "lastSeenAt": "2026-08-28T04:52:13.692Z"
@@ -69,9 +69,9 @@
       {
         "label": "Worker 06",
         "status": "Active",
-        "stage": "Tasks",
-        "processed": 566,
-        "lastSeenAt": "2026-08-28T04:53:35.473Z"
+        "stage": "Clinical history",
+        "processed": 579,
+        "lastSeenAt": "2026-08-28T05:11:46.639Z"
       }
     ]
   },
@@ -80,17 +80,13 @@
     "status": "Passing"
   },
   "analogy": {
-    "sheetWeightKg": 585.215,
-    "grandPianos": 1.9507166666666669,
-    "factIndex": 1,
-    "fact": "Stacked one per sheet, the captured files would form a paper tower about 11.7 metres high.",
+    "sheetWeightKg": 591.705,
+    "grandPianos": 1.97235,
+    "factIndex": 3,
+    "fact": "At 500 sheets per ream, the captured files would fill about 237 reams of paper.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
-    {
-      "at": "2026-08-27T23:00:00.000Z",
-      "count": 209
-    },
     {
       "at": "2026-08-28T00:00:00.000Z",
       "count": 199
@@ -109,7 +105,11 @@
     },
     {
       "at": "2026-08-28T04:00:00.000Z",
-      "count": 172
+      "count": 194
+    },
+    {
+      "at": "2026-08-28T05:00:00.000Z",
+      "count": 35
     }
   ]
 }

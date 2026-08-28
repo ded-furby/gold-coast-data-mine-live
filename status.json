@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T13:41:52.141Z",
+  "generatedAt": "2026-08-28T13:59:09.732Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
     "targetPatients": 11763,
-    "verifiedPatients": 9448,
-    "remainingPatients": 2315,
-    "percent": 80.31964634872057,
-    "rollingRatePerHour": 252.83333333333334,
-    "etaHours": 9.156229400131839,
-    "etaAt": "2026-08-28T22:51:14.566Z",
-    "latestVerifiedAt": "2026-08-28T13:41:27.255Z"
+    "verifiedPatients": 9537,
+    "remainingPatients": 2226,
+    "percent": 81.07625605712828,
+    "rollingRatePerHour": 259,
+    "etaHours": 8.594594594594595,
+    "etaAt": "2026-08-28T22:34:50.272Z",
+    "latestVerifiedAt": "2026-08-28T13:59:01.719Z"
   },
   "archive": {
-    "totalFiles": 157932,
-    "totalFileBytes": 51601347297,
-    "structuredRecords": 267847,
-    "freeBytes": 487558134784,
-    "latestFileAt": "2026-08-28T13:41:58.700Z",
-    "recentFiles": 608
+    "totalFiles": 159784,
+    "totalFileBytes": 51947059739,
+    "structuredRecords": 270285,
+    "freeBytes": 485722471424,
+    "latestFileAt": "2026-08-28T13:59:12.173Z",
+    "recentFiles": 1177
   },
   "queue": {
-    "waiting": 2307,
+    "waiting": 2218,
     "inProgress": 8,
-    "complete": 9448,
+    "complete": 9537,
     "heldForReview": 0
   },
   "workers": {
@@ -35,69 +35,69 @@
         "label": "Worker 01",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 2053,
-        "lastSeenAt": "2026-08-28T13:41:58.691Z"
+        "processed": 2070,
+        "lastSeenAt": "2026-08-28T13:58:58.874Z"
       },
       {
         "label": "Worker 02",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 2182,
-        "lastSeenAt": "2026-08-28T13:41:54.689Z"
+        "stage": "Tasks",
+        "processed": 2191,
+        "lastSeenAt": "2026-08-28T13:59:11.324Z"
       },
       {
         "label": "Worker 03",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 2214,
-        "lastSeenAt": "2026-08-28T13:41:58.356Z"
+        "stage": "Tasks",
+        "processed": 2224,
+        "lastSeenAt": "2026-08-28T13:59:11.325Z"
       },
       {
         "label": "Worker 04",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 919,
-        "lastSeenAt": "2026-08-28T13:41:52.025Z"
+        "stage": "Patient details",
+        "processed": 930,
+        "lastSeenAt": "2026-08-28T13:59:01.941Z"
       },
       {
         "label": "Worker 05",
         "status": "Active",
-        "stage": "Appointments",
-        "processed": 840,
-        "lastSeenAt": "2026-08-28T13:41:55.687Z"
+        "stage": "Charts",
+        "processed": 850,
+        "lastSeenAt": "2026-08-28T13:59:11.414Z"
       },
       {
         "label": "Worker 06",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 856,
-        "lastSeenAt": "2026-08-28T13:41:53.647Z"
+        "processed": 866,
+        "lastSeenAt": "2026-08-28T13:59:12.173Z"
       },
       {
         "label": "Worker 07",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 195,
-        "lastSeenAt": "2026-08-28T13:41:58.700Z"
+        "stage": "Tasks",
+        "processed": 206,
+        "lastSeenAt": "2026-08-28T13:59:11.326Z"
       },
       {
         "label": "Worker 08",
         "status": "Active",
-        "stage": "Appointments",
-        "processed": 184,
-        "lastSeenAt": "2026-08-28T13:41:53.660Z"
+        "stage": "Clinical history",
+        "processed": 195,
+        "lastSeenAt": "2026-08-28T13:58:57.001Z"
       }
     ]
   },
   "integrity": {
-    "recentAlerts": 7,
-    "status": "Reviewing"
+    "recentAlerts": 0,
+    "status": "Passing"
   },
   "analogy": {
-    "sheetWeightKg": 789.66,
-    "grandPianos": 2.6322,
-    "factIndex": 2,
-    "fact": "Laid end to end on A4 paper, the captured files would stretch about 46.9 kilometres.",
+    "sheetWeightKg": 798.9200000000001,
+    "grandPianos": 2.663066666666667,
+    "factIndex": 3,
+    "fact": "At 500 sheets per ream, the captured files would fill about 320 reams of paper.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
@@ -123,7 +123,7 @@
     },
     {
       "at": "2026-08-28T13:00:00.000Z",
-      "count": 162
+      "count": 251
     }
   ]
 }

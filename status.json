@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T16:00:17.765Z",
+  "generatedAt": "2026-08-28T16:17:20.665Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
     "targetPatients": 11763,
-    "verifiedPatients": 10165,
-    "remainingPatients": 1598,
-    "percent": 86.415030179376,
-    "rollingRatePerHour": 269.8333333333333,
-    "etaHours": 5.922174181593577,
-    "etaAt": "2026-08-28T21:55:37.592Z",
-    "latestVerifiedAt": "2026-08-28T16:00:12.686Z"
+    "verifiedPatients": 10260,
+    "remainingPatients": 1503,
+    "percent": 87.22264728385616,
+    "rollingRatePerHour": 273.8333333333333,
+    "etaHours": 5.488740109555692,
+    "etaAt": "2026-08-28T21:46:40.129Z",
+    "latestVerifiedAt": "2026-08-28T16:17:20.738Z"
   },
   "archive": {
-    "totalFiles": 170650,
-    "totalFileBytes": 54354792733,
-    "structuredRecords": 285906,
-    "freeBytes": 473049775104,
-    "latestFileAt": "2026-08-28T16:00:20.444Z",
-    "recentFiles": 849
+    "totalFiles": 172112,
+    "totalFileBytes": 54724908958,
+    "structuredRecords": 288081,
+    "freeBytes": 471262739456,
+    "latestFileAt": "2026-08-28T16:17:22.731Z",
+    "recentFiles": 975
   },
   "queue": {
-    "waiting": 1590,
+    "waiting": 1495,
     "inProgress": 8,
-    "complete": 10165,
+    "complete": 10260,
     "heldForReview": 0
   },
   "workers": {
@@ -34,58 +34,58 @@
       {
         "label": "Worker 01",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 2167,
-        "lastSeenAt": "2026-08-28T16:00:12.670Z"
+        "stage": "Tasks",
+        "processed": 2178,
+        "lastSeenAt": "2026-08-28T16:17:19.960Z"
       },
       {
         "label": "Worker 02",
         "status": "Active",
-        "stage": "Tasks",
-        "processed": 2266,
-        "lastSeenAt": "2026-08-28T16:00:19.822Z"
+        "stage": "Clinical history",
+        "processed": 2277,
+        "lastSeenAt": "2026-08-28T16:17:22.731Z"
       },
       {
         "label": "Worker 03",
         "status": "Active",
         "stage": "Clinical history",
-        "processed": 2302,
-        "lastSeenAt": "2026-08-28T16:00:19.477Z"
+        "processed": 2314,
+        "lastSeenAt": "2026-08-28T16:17:12.362Z"
       },
       {
         "label": "Worker 04",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 1006,
-        "lastSeenAt": "2026-08-28T16:00:20.444Z"
+        "stage": "Patient details",
+        "processed": 1018,
+        "lastSeenAt": "2026-08-28T16:17:13.831Z"
       },
       {
         "label": "Worker 05",
         "status": "Active",
-        "stage": "Charts",
-        "processed": 924,
-        "lastSeenAt": "2026-08-28T16:00:12.883Z"
+        "stage": "Clinical history",
+        "processed": 936,
+        "lastSeenAt": "2026-08-28T16:17:12.361Z"
       },
       {
         "label": "Worker 06",
         "status": "Active",
-        "stage": "Patient details",
-        "processed": 944,
-        "lastSeenAt": "2026-08-28T16:00:12.899Z"
+        "stage": "Recalls",
+        "processed": 956,
+        "lastSeenAt": "2026-08-28T16:17:19.606Z"
       },
       {
         "label": "Worker 07",
         "status": "Active",
-        "stage": "Clinical history",
-        "processed": 283,
-        "lastSeenAt": "2026-08-28T16:00:13.096Z"
+        "stage": "Patient details",
+        "processed": 297,
+        "lastSeenAt": "2026-08-28T16:17:20.973Z"
       },
       {
         "label": "Worker 08",
         "status": "Active",
-        "stage": "Recalls",
-        "processed": 268,
-        "lastSeenAt": "2026-08-28T16:00:12.778Z"
+        "stage": "Patient details",
+        "processed": 280,
+        "lastSeenAt": "2026-08-28T16:17:12.951Z"
       }
     ]
   },
@@ -94,10 +94,10 @@
     "status": "Passing"
   },
   "analogy": {
-    "sheetWeightKg": 853.25,
-    "grandPianos": 2.8441666666666667,
-    "factIndex": 0,
-    "fact": "Printed one per sheet, the captured files would weigh about 853.3 kg — roughly 2.8 grand pianos.",
+    "sheetWeightKg": 860.5600000000001,
+    "grandPianos": 2.8685333333333336,
+    "factIndex": 1,
+    "fact": "Stacked one per sheet, the captured files would form a paper tower about 17.2 metres high.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
@@ -123,7 +123,7 @@
     },
     {
       "at": "2026-08-28T16:00:00.000Z",
-      "count": 1
+      "count": 97
     }
   ]
 }

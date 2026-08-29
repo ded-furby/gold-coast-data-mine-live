@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T05:49:54.510Z",
+  "generatedAt": "2026-08-29T06:06:35.221Z",
   "title": "Gold Coast Data Mine",
   "privacy": "Aggregate operational metrics only. No patient identifiers or clinical details.",
   "progress": {
@@ -17,7 +17,7 @@
     "totalFiles": 192782,
     "totalFileBytes": 58298766836,
     "structuredRecords": 319133,
-    "freeBytes": 448729627648,
+    "freeBytes": 448728972288,
     "latestFileAt": "2026-08-28T20:58:23.930Z",
     "recentFiles": 0
   },
@@ -96,15 +96,11 @@
   "analogy": {
     "sheetWeightKg": 963.91,
     "grandPianos": 3.213033333333333,
-    "factIndex": 2,
-    "fact": "Laid end to end on A4 paper, the captured files would stretch about 57.3 kilometres.",
+    "factIndex": 0,
+    "fact": "Printed one per sheet, the captured files would weigh about 963.9 kg — roughly 3.2 grand pianos.",
     "note": "Illustrative comparison based on one A4 sheet per captured file."
   },
   "hourly": [
-    {
-      "at": "2026-08-29T00:00:00.000Z",
-      "count": 0
-    },
     {
       "at": "2026-08-29T01:00:00.000Z",
       "count": 0
@@ -123,6 +119,10 @@
     },
     {
       "at": "2026-08-29T05:00:00.000Z",
+      "count": 0
+    },
+    {
+      "at": "2026-08-29T06:00:00.000Z",
       "count": 0
     }
   ]
